@@ -1,8 +1,10 @@
 export const SITE = {
   name: "Uma Creations",
-  tagline: "Handmade jewellery & fashion",
-  whatsapp: "91XXXXXXXXXX", // your number with country code, no + or spaces
-  instagram: "https://instagram.com/yourhandle",
+  tagline: "Handmade jewellery and fashion",
+  whatsapp: "919833721708",
+  instagram: "https://instagram.com/uma_creation_24/",
+  email: "asm.tade24@gmail.com",   // shown publicly on the Contact page
+  city: "Thane, Maharashtra",
 };
 
 export const CATEGORIES = [
