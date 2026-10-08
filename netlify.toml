@@ -1,0 +1,6 @@
+[build.environment]
+  # NEXT_PUBLIC_* values are inlined into the client bundle by design, so they
+  # are not secrets. Skip them in secrets scanning (they also end up in the
+  # Next.js/Turbopack build cache). SECRETS_SCAN_OMIT_KEYS is listed itself
+  # because this config value is not a secret either.
+  SECRETS_SCAN_OMIT_KEYS = "SECRETS_SCAN_OMIT_KEYS,NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY"
